@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-roboto), system-ui, sans-serif;
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+}
+
+.btn {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  transition-property: all;
+  transition-duration: 300ms;
+  border-radius: 0.375rem;
+}
+
+.btn-primary {
+  background-color: #1976D2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: rgba(25, 118, 210, 0.9);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+} 

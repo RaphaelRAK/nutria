@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NutrIA - Site Web
 
-## Getting Started
+Un site web moderne pour NutrIA, une entreprise qui utilise l'intelligence artificielle pour améliorer l'agriculture durable.
 
-First, run the development server:
+## Technologies utilisées
 
+- [Next.js](https://nextjs.org/) - Framework React
+- [TypeScript](https://www.typescriptlang.org/) - Typage statique
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitaire
+- [React Icons](https://react-icons.github.io/react-icons/) - Icônes
+- [Framer Motion](https://www.framer.com/motion/) - Animations
+
+## Démarrage
+
+### Prérequis
+
+- Node.js 18.x ou supérieur
+- npm 9.x ou supérieur
+
+### Installation
+
+1. Cloner ce dépôt
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <url-du-depot>
+cd nutria
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Installer les dépendances
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Lancer le serveur de développement
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur
 
-## Learn More
+## Structure du projet
 
-To learn more about Next.js, take a look at the following resources:
+```
+nutria/
+├── app/                  # Répertoire principal de l'application (App Router)
+│   ├── components/       # Composants réutilisables
+│   ├── about/            # Page "Qui sommes-nous?"
+│   ├── pricing/          # Page "Tarifs"
+│   ├── contact/          # Page "Contact"
+│   ├── globals.css       # Styles globaux
+│   ├── layout.tsx        # Layout principal
+│   └── page.tsx          # Page d'accueil
+├── public/               # Ressources statiques
+│   └── images/           # Images du site
+└── tailwind.config.ts    # Configuration Tailwind CSS
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Fonctionnalités
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Design responsive adapté à tous les écrans
+- Navigation fluide avec animations
+- Formulaires de contact et de demande de devis
+- Intégration des icônes pour une meilleure expérience utilisateur
+- Sections de présentation des services et avantages
 
-## Deploy on Vercel
+## Palette de couleurs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Vert forêt (#2E7D32) - Agriculture et durabilité
+- Bleu technologique (#1976D2) - Innovation et IA
+- Blanc pur (#FFFFFF) - Fond principal
+- Gris clair (#F5F5F5) - Sections secondaires
+- Jaune doré (#F9A825) - Accents
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Déploiement
+
+Pour construire la version de production :
+
+```bash
+npm run build
+```
+
+Pour démarrer la version de production :
+
+```bash
+npm start
+```
+
+## License
+
+Ce projet est sous licence MIT.
+
+---
+
+Créé avec 💚 pour NutrIA
