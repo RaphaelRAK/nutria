@@ -1,0 +1,5 @@
+# Pour avoir un nom de domaine accèssible à  tous sans passer l'authentification de vercel 
+vercel alias set nutria-4cwoef5jb-raphaels-projects-098f3413.vercel.app nutria-app.vercel.app
+
+# Un autre commande mais on dirait ça à générer des erreurs
+vercel alias set nutria-4cwoef5jb-raphaels-projects-098f3413.vercel.app nutria.vercel.app
