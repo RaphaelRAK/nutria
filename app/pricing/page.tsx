@@ -41,7 +41,7 @@ const PricingPage = () => {
                 </div>
                 
                 <ul className="space-y-4">
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg className="w-5 h-5 text-forest-green mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -49,7 +49,7 @@ const PricingPage = () => {
                       <span>Frais de 1ère année: </span>
                       <span className="font-bold">18 796,92 €</span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-forest-green mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
@@ -114,7 +114,7 @@ const PricingPage = () => {
                 </div>
                 
                 <ul className="space-y-4">
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg className="w-5 h-5 text-tech-blue mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -122,7 +122,7 @@ const PricingPage = () => {
                       <span>Frais de 1ère année: </span>
                       <span className="font-bold">18 796,92 €</span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-tech-blue mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
@@ -187,7 +187,7 @@ const PricingPage = () => {
                 </div>
                 
                 <ul className="space-y-4">
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg className="w-5 h-5 text-purple-500 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -195,7 +195,7 @@ const PricingPage = () => {
                       <span>Frais de 1ère année: </span>
                       <span className="font-bold">18 796,92 €</span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-purple-500 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
@@ -260,7 +260,7 @@ const PricingPage = () => {
                 </div>
                 
                 <ul className="space-y-4">
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg className="w-5 h-5 text-amber-500 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -268,7 +268,7 @@ const PricingPage = () => {
                       <span>Frais de 1ère année: </span>
                       <span className="font-bold">18 796,92 €</span>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-amber-500 mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
