@@ -153,7 +153,7 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="block bg-tech-blue text-white px-4 py-3 rounded-lg font-medium text-center hover:bg-tech-blue/90 transition mt-6"
               >
-                Demander une démo
+                Donnez votre avis
               </Link>
             </div>
           </motion.div>

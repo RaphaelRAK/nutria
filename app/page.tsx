@@ -132,7 +132,7 @@ export default function Home() {
         </div>
       </section>
       
-      {/* Call to Action */}
+      {/* Call to Action
       <section className="py-24 bg-gradient-to-r from-forest-green to-tech-blue text-white">
         <div className="container text-center">
           <h2 className="text-4xl font-bold mb-6">
@@ -149,7 +149,7 @@ export default function Home() {
             Demander une démo
           </a>
         </div>
-      </section>
+      </section> */}
       
       <Footer />
     </main>
