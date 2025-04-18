@@ -1,24 +1,15 @@
 import type { Metadata } from "next";
-import { Poppins, Roboto } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
-  display: "swap",
-});
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-roboto",
-  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "NutrIA - L'IA pour une agriculture durable et performante",
-  description: "Optimisez vos rendements tout en respectant l'environnement",
+  title: "NutrIA - Solutions d'IA pour l'agriculture",
+  description: "Solutions d'intelligence artificielle pour optimiser vos cultures agricoles",
 };
 
 export default function RootLayout({
@@ -28,7 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${poppins.variable} ${roboto.variable} font-sans`}>{children}</body>
+      <body
+        className={`${inter.variable} antialiased`}
+      >
+        {children}
+        <elevenlabs-convai agent-id="JAi64ASox10iA1qhPBZ6"></elevenlabs-convai>
+        <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+      </body>
     </html>
   );
-} 
+}

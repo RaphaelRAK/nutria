@@ -23,6 +23,8 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
       >
         {children}
+        <elevenlabs-convai agent-id="JAi64ASox10iA1qhPBZ6"></elevenlabs-convai>
+        <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
       </body>
     </html>
   );
