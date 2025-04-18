@@ -43,8 +43,8 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Decorative element */}
-      <div className="hidden lg:block absolute right-0 bottom-0 w-1/3 h-1/2 bg-gradient-to-tl from-tech-blue/20 to-transparent rounded-tl-[100px] backdrop-blur-sm"></div>
+      {/* Decorative element
+      <div className="hidden lg:block absolute right-0 bottom-0 w-1/3 h-1/2 bg-gradient-to-tl from-tech-blue/20 to-transparent rounded-tl-[100px] backdrop-blur-sm"></div> */}
     </div>
   );
 };

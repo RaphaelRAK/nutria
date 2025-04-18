@@ -47,7 +47,7 @@ const Header = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         scrolled 
           ? 'bg-white/90 backdrop-blur-md shadow-md py-2' 
-          : 'bg-transparent py-6'
+          : 'bg-white/90 backdrop-blur-md shadow-md py-2'
       }`}
     >
       <div className="container flex items-center justify-between">
@@ -83,7 +83,7 @@ const Header = () => {
               <Link
                 href={link.href}
                 className={`${
-                  scrolled ? 'text-dark-gray' : 'text-white'
+                  scrolled ? 'text-dark-gray' : 'text-dark-gray'
                 } hover:text-tech-blue transition-colors relative group font-medium`}
               >
                 {link.name}
@@ -103,10 +103,10 @@ const Header = () => {
               className={`${
                 scrolled 
                   ? 'bg-tech-blue text-white hover:bg-tech-blue/90' 
-                  : 'bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 border border-white/30'
+                  : 'bg-tech-blue text-white hover:bg-tech-blue/90'
               } px-5 py-2 rounded-lg transition-all`}
             >
-              Demander une démo
+              Donnez votre avis
             </Link>
           </motion.div>
         </nav>
