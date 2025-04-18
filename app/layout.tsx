@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({
         <elevenlabs-convai agent-id="JAi64ASox10iA1qhPBZ6"></elevenlabs-convai>
         <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
