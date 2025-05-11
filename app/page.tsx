@@ -316,7 +316,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-bold">Marie Dupont</h4>
-                  <p className="text-gray-500 text-sm">Viticultrice - Bordeaux</p>
+                  <p className="text-gray-500 text-sm">Viticultrice - Saint Denis</p>
                 </div>
               </div>
               <p className="text-gray-700 italic">"Depuis que nous utilisons NutrIA, nous avons réduit notre consommation d'eau de 30% et augmenté nos rendements de près de 20%. Un investissement qui s'est rapidement rentabilisé."</p>
@@ -329,7 +329,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-bold">Jean Martin</h4>
-                  <p className="text-gray-500 text-sm">Céréalier - Beauce</p>
+                  <p className="text-gray-500 text-sm">Céréalier - Sainte Marie</p>
                 </div>
               </div>
               <p className="text-gray-700 italic">"Les prédictions de NutrIA m'ont permis d'anticiper des problèmes phytosanitaires et d'intervenir avant que les dégâts ne soient trop importants. Je recommande vivement."</p>
@@ -342,7 +342,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="font-bold">Sophie Leroux</h4>
-                  <p className="text-gray-500 text-sm">Maraîchère - Provence</p>
+                  <p className="text-gray-500 text-sm">Maraîchère - Tampon</p>
                 </div>
               </div>
               <p className="text-gray-700 italic">"L'interface est intuitive et les recommandations sont pertinentes. J'apprécie particulièrement les alertes en temps réel qui me permettent de réagir rapidement aux changements climatiques."</p>
