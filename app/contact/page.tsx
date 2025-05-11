@@ -32,14 +32,14 @@ const ContactPage = () => {
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <div className="text-tech-blue mr-4 mt-1">
+                  {/* <div className="text-tech-blue mr-4 mt-1">
                     <FaPhone />
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Téléphone</h3>
                     <p>0262 012 645</p>
                     <p className="text-sm text-gray-500">Lundi au vendredi, 9h-18h</p>
-                  </div>
+                  </div> */}
                 </div>
                 
                 <div className="flex items-start">
@@ -48,8 +48,8 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p>contact@nutria.fr</p>
-                    <p>info@nutria.fr</p>
+                    <p>nutria.iaandfood@gmail.com</p>
+                    
                   </div>
                 </div>
                 
@@ -59,8 +59,8 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Adresse</h3>
-                    <p>123 Avenue de l&apos;Innovation</p>
-                    <p>75008 Paris, France</p>
+                    <p>Parc Technologique Universitaire, 2 Rue Joseph Wetzell</p>
+                    <p>Sainte-Clotilde 97490, La Réunion</p>
                   </div>
                 </div>
                 

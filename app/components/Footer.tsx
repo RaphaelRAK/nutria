@@ -76,23 +76,22 @@ const Footer = () => {
                     <FaMapMarkerAlt />
                   </div>
                   <div>
-                    <p className="text-white/80">123 Avenue de l'Innovation</p>
-                    <p className="text-white/80">75008 Paris, France</p>
+                    <p className="text-white/80">Parc Technologique Universitaire, 2 Rue Joseph Wetzell</p>
+                    <p className="text-white/80">Sainte-Clotilde 97490, La Réunion</p>
                   </div>
                 </li>
-                <li className="flex items-center">
+                {/* <li className="flex items-center">
                   <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-golden-yellow mr-4">
                     <FaPhone />
                   </div>
                   <span className="text-white/80">0262 012 645</span>
-                </li>
+                </li> */}
                 <li className="flex items-center">
                   <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-golden-yellow mr-4">
                     <FaEnvelope />
                   </div>
                   <div>
-                    <p className="text-white/80">contact@nutria.fr</p>
-                    <p className="text-white/80">info@nutria.fr</p>
+                    <p className="text-white/80">nutria.iaandfood@gmail.com</p>
                   </div>
                 </li>
               </ul>
