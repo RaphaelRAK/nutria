@@ -172,7 +172,7 @@ const AboutPage = () => {
       </section>
       
       {/* Services Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container">
           <h2 className="text-3xl font-bold text-forest-green text-center mb-12">
             Une IA au service des agriculteurs
@@ -188,7 +188,7 @@ const AboutPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* How it Works */}
       <section className="py-16 bg-light-gray">

@@ -23,10 +23,10 @@ export default function Home() {
         </div>
         <div className="container relative z-10">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-forest-green/10 text-forest-green text-sm font-semibold mb-4">
+            {/* <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-forest-green/10 text-forest-green text-sm font-semibold mb-4">
               <span className="mr-2">✨</span>
               <span>Nouvelle version disponible</span>
-            </div>
+            </div> */}
             <h2 className="text-4xl md:text-5xl font-bold text-forest-green mb-6">
               Découvrez NutrIA <span className="text-tech-blue">en action</span>
             </h2>
@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-4">
                 <button className="px-8 py-4 bg-forest-green text-white rounded-lg font-semibold hover:bg-forest-green/90 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center">
                   <span>Essayer gratuitement</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -99,7 +99,7 @@ export default function Home() {
                 <button className="px-8 py-4 bg-white text-tech-blue border border-tech-blue/30 rounded-lg font-semibold hover:bg-tech-blue/5 transition-all flex items-center justify-center">
                   <span>Voir la démo</span>
                 </button>
-              </div>
+              </div> */}
             </div>
             
             <div className="order-1 md:order-2 relative">
@@ -212,7 +212,7 @@ export default function Home() {
       </section>
       
       {/* Mobile App Section */}
-      <section className="py-24 bg-gradient-to-br from-forest-green/5 to-tech-blue/5">
+      {/* <section className="py-24 bg-gradient-to-br from-forest-green/5 to-tech-blue/5">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -294,7 +294,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Testimonial Section */}
       <section className="py-24 bg-light-gray relative overflow-hidden">
@@ -417,7 +417,7 @@ export default function Home() {
           </div>
           
           {/* Additional Benefits */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl text-white">
               <div className="text-3xl mb-4">🤝</div>
               <h3 className="font-semibold text-xl mb-2">Réseau d&apos;entraide</h3>
@@ -435,7 +435,7 @@ export default function Home() {
               <h3 className="font-semibold text-xl mb-2">Programme Fidélité</h3>
               <p className="opacity-90">Cumulez des points pour chaque parrainage réussi</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       

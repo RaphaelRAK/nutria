@@ -465,11 +465,10 @@ const PricingPage = () => {
           <div className="max-w-3xl mx-auto bg-forest-green text-white p-8 rounded-lg shadow-md">
             <div className="text-center mb-6">
               <p className="text-xl italic mb-4">
-                &quot;Depuis que nous utilisons NutrIA, nous avons réduit notre consommation d&apos;eau de 30% et 
-                augmenté nos rendements de près de 20%. C&apos;est un investissement qui s&apos;est rapidement rentabilisé.&quot;
+                &quot;Depuis que nous utilisons NutrIA, nous avons augmenté notre taux de phycocyanine , Un investissement qui s'est rapidement rentabilisé.". 
               </p>
               <p className="font-bold">
-                Jean Dupont, céréalier dans le Centre-Val de Loire
+                Lucas VORRONI, Spirulinier à Sainte Marie
               </p>
             </div>
           </div>
