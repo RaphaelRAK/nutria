@@ -1,5 +1,7 @@
+"use client";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { useState, useEffect } from 'react';
 import { 
   FaSeedling, 
   FaChartLine, 
@@ -14,6 +16,20 @@ import {
 } from 'react-icons/fa';
 
 const AboutPage = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const images = [
+    { src: "/images/equipe1.jpg", alt: "Notre équipe Nutria (face)" },
+    { src: "/images/equipe2.jpg", alt: "Notre équipe Nutria (dos)" }
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage === 0 ? 1 : 0));
+    }, 5000);
+    
+    return () => clearInterval(interval);
+  }, []);
+
   const services = [
     {
       icon: <FaChartLine />,
@@ -81,32 +97,52 @@ const AboutPage = () => {
       <section className="py-16 bg-light-gray">
         <div className="container">
           <h1 className="text-4xl font-bold text-forest-green text-center mb-8">
-            Révolutionner l&apos;agriculture avec l&apos;IA
+            L&apos;équipe NutrIA
           </h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="mb-4">
-                NutrIA est née de la volonté de mettre l&apos;intelligence artificielle au service d&apos;une 
-                agriculture plus durable et plus performante. Notre équipe d&apos;experts en agronomie et en 
-                technologie a développé une solution innovante qui analyse les données agricoles et fournit des 
-                recommandations personnalisées aux agriculteurs.
+                NutrIA est portée par une équipe de 5 étudiants passionnés de l&apos;Université de La Réunion, tous en Master 1. 
+                Notre équipe associe 3 étudiants du parcours informatique et 2 du parcours chimie, combinant ainsi des expertises 
+                complémentaires.
+              </p>
+              <p className="mb-4">
+                Cette synergie entre nos deux disciplines est au cœur de notre démarche. Les spécialistes en informatique 
+                apportent leurs compétences en développement et en intelligence artificielle, tandis que les chimistes 
+                contribuent par leur compréhension des processus biologiques et des interactions sol-plante.
               </p>
               <p>
-                Nous croyons fermement que l&apos;agriculture de demain doit concilier productivité et respect 
-                de l&apos;environnement. C&apos;est pourquoi notre plateforme est conçue pour aider les 
-                agriculteurs à optimiser leurs rendements tout en réduisant leur impact écologique.
+                Ensemble, nous avons collaboré étroitement pour développer des prédictions basées sur l&apos;intelligence 
+                artificielle, en mettant en commun nos connaissances respectives pour mener à bien ce projet innovant 
+                au service de l&apos;agriculture durable.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <div 
-                className="h-80 bg-tech-blue"
-                style={{
-                  backgroundImage: "linear-gradient(225deg, #1976D2, #2E7D32)",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              ></div>
+              <div className="h-96 md:h-[450px] lg:h-[500px] relative overflow-hidden">
+                {images.map((image, index) => (
+                  <img 
+                    key={index}
+                    src={image.src} 
+                    alt={image.alt} 
+                    className={`w-full h-full object-contain md:object-cover absolute inset-0 transition-opacity duration-1000 ${
+                      index === currentImage ? 'opacity-100' : 'opacity-0'
+                    }`}
+                  />
+                ))}
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                  {images.map((_, index) => (
+                    <button 
+                      key={index}
+                      onClick={() => setCurrentImage(index)}
+                      className={`h-2 w-2 rounded-full ${
+                        index === currentImage ? 'bg-white' : 'bg-white bg-opacity-50'
+                      }`}
+                      aria-label={`Voir l'image ${index + 1}`}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
